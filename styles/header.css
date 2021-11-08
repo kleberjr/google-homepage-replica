@@ -1,4 +1,6 @@
 header {
+    positon: relative;
+    
     /* Posiciona o .header-items à direita */
     display: flex;
     justify-content: center;
@@ -13,6 +15,9 @@ header {
 }
 
 header > .header-items {
+    position: absolute;
+    right: 0px;
+    
     /* Centraliza e espaça todos os itens do .header-items. */
     display: flex;
     justify-content: right;
