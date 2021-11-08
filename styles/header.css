@@ -1,9 +1,10 @@
 header {
-    positon: relative;
+    /* Contorna bug de posicionamento no Safari */
+    position: relative;
     
     /* Posiciona o .header-items à direita */
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     
     width: 100%;
@@ -11,10 +12,10 @@ header {
     margin-bottom: 45px;
 
     font-size: 0.9em;
-    background-color: rgb(122, 194, 212);
 }
 
 header > .header-items {
+    /* Contorna bug de posicionamento no Safari */
     position: absolute;
     right: 0px;
     
@@ -25,7 +26,6 @@ header > .header-items {
     gap: 18px;
     
     margin-right: 20px;
-    background-color: rgb(212, 122, 122);
 }
 
 header a {
