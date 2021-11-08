@@ -1,0 +1,56 @@
+header {
+    /* Posiciona o .header-items à direita */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+    width: 100%;
+    height: 60px;
+    margin-bottom: 45px;
+
+    font-size: 0.9em;
+}
+
+header > .header-items {
+    /* Centraliza e espaça todos os itens do .header-items. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    
+    margin-right: 20px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header i {
+    font-size: 1.35em;
+    color: rgb(122, 122, 122);
+}
+
+header button {
+    width: 65px;
+    padding: 5px;
+    border: 1px solid #4c8bf5;
+    outline: none;
+    
+    background-color: #4c8bf5;
+    color: white;
+    
+    font-weight: 600;
+}
+
+header button:hover {
+    border: 1px solid #7298db;
+    
+    box-shadow:  0px 2px 1px rgb(212, 212, 212);
+    
+    cursor: pointer;
+}
