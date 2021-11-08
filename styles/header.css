@@ -23,7 +23,19 @@ header > .header-items {
     background-color: rgb(212, 122, 122);
 }
 
+header a {
+    color: black;
+    text-decoration: none;
+}
 
+header a:hover {
+    text-decoration: underline;
+}
+
+header i {
+    font-size: 1.35em;
+    color: rgb(122, 122, 122);
+}
 
 header button {
     width: 65px;
